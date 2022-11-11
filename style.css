@@ -1,0 +1,148 @@
+body {
+    background-color: #E5E5E5;
+    margin: 0 auto;
+}
+.wrapper {
+    max-width: 1200px;
+    margin: 0 auto;
+    background-color: #f8f8f8
+}
+main {
+    padding: 115px;
+    font-family: 'Nunito', sans-serif;
+}
+main > h1 {
+    width: 600px;
+    margin: 0;
+}
+h2 {
+    font-size: 20px;
+}
+figure {
+    margin: 0;
+}
+figcaption {
+    padding-left: 40px;
+}
+a {
+    text-decoration: none;
+    color: rgb(48, 82, 185);
+}
+img {
+    width: 560px;
+    height: 315px;
+    object-fit:cover;
+    padding-top: 15px;
+}
+blockquote {
+    width: max-content;
+    background-color: #3F586F;
+    color: white;
+    padding: 30px;
+    margin: 15px 0;
+    line-height: 1.6;
+}
+blockquote footer {
+    margin-top: 20px;
+}
+blockquote footer::before {
+    margin-right: 3px;
+    content: "—";
+}
+.cite::before {
+    margin-right: 3px;
+    content: "—";
+}
+.cite{
+    font-style: italic;
+}
+
+@media (max-width: 768px) {
+    main{
+        padding: 50px;
+    }
+    img {
+        width: 538px;
+        height: 300px;
+    }
+    iframe {
+        width: 538px;
+        height: 300px;
+    }
+    blockquote {
+        width: 478px;
+    }
+}
+@media (max-width: 628px) {
+    main{
+        padding: 50px;
+    }
+    img {
+        width: 384px;
+        height: 230px;
+    }
+    iframe {
+        width: 384px;
+        height: 230px;
+    }
+    blockquote {
+        width: 324px;
+    }
+}
+@media (max-width: 480px) {
+    main{
+        padding: 15px;
+    }
+    img {
+        width: 384px;
+        height: 230px;
+    }
+    iframe {
+        width: 384px;
+        height: 230px;
+    }
+    blockquote {
+        width: 324px;
+    }
+}
+@media (max-width: 412px) {
+    main{
+        padding: 15px;
+    }
+    img {
+        width: 330px;
+        height: 190px;
+    }
+    iframe {
+        width: 330px;
+        height: 190px;
+    }
+    blockquote {
+        width: 270px;
+    }
+}
+@media (max-width: 358px) {
+    * {
+        font-size: 12px;
+    }
+    h1 {
+        font-size: 20px;
+    }
+    h2 {
+        font-size: 15px;
+    }
+    main{
+        padding: 15px;
+    }
+    img {
+        width: 250px;
+        height: 140px;
+    }
+    iframe {
+        width: 250px;
+        height: 140px;
+    }
+    blockquote {
+        width: 190px;
+    }
+}
